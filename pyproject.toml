@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "prss-1"
+version = "0.1.0"
+description = ""
+authors = ["Ivan <iv.cherepanov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "prss_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
